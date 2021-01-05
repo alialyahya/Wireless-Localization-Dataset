@@ -1,0 +1,64 @@
+std:
+---none:
+All stats{'best params': {'activation': 'tanh', 'alpha': 0.1291549665014884, 'hidden_layer_sizes': (50,), 'solver': 'lbfgs'}, 'best_p_stats': (0.9862500000000001, 1.7968750000000176e-05), 'best_dim_stats': (0.9843749999999999, 3.671875000000008e-05)}
+train confusion matrix:[[400   0   0   0]
+ [  0 400   0   0]
+ [  0   0 400   0]
+ [  0   0   0 400]]
+test confusion[[ 99   0   1   0]
+ [  0  96   4   0]
+ [  0   2  98   0]
+ [  0   0   0 100]]
+---Fisher:
+All stats{'best params': {'activation': 'tanh', 'alpha': 0.0005994842503189409, 'hidden_layer_sizes': (50, 3), 'solver': 'lbfgs'}, 'best_p_stats': (0.859375, 0.00016015624999999955), 'best_dim_stats': (0.852125, 0.00025759375), 'best_dim': 1}
+train confusion matrix:[[292   0  97  11]
+ [  0 384  16   0]
+ [ 82   7 308   3]
+ [ 14   0   0 386]]
+test confusion[[ 70   0  26   4]
+ [  0  93   7   0]
+ [ 13   1  85   1]
+ [  0   0   0 100]]
+---PCA:
+All stats{'best params': {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (15,), 'solver': 'lbfgs'}, 'best_p_stats': (0.8237500000000001, 0.00026015624999999943), 'best_dim_stats': (0.81675, 0.00024521875000000016), 'best_dim': 1}
+train confusion matrix:[[254   0  75  71]
+ [  0 380  20   0]
+ [ 47   4 347   2]
+ [ 63   0   1 336]]
+test confusion[[66  0 21 13]
+ [ 0 94  6  0]
+ [10  4 85  1]
+ [11  0  0 89]]
+-----------------------------------------------------------
+norm:
+---none:
+All stats{'best params': {'activation': 'logistic', 'alpha': 0.0001, 'hidden_layer_sizes': (50,), 'solver': 'lbfgs'}, 'best_p_stats': (0.98375, 5.468750000000155e-06), 'best_dim_stats': (0.980375, 6.134375000000002e-05)}
+train confusion matrix:[[400   0   0   0]
+ [  0 399   1   0]
+ [  0   1 399   0]
+ [  0   0   0 400]]
+test confusion[[ 98   0   0   2]
+ [  0  94   6   0]
+ [  1   2  97   0]
+ [  0   0   0 100]]
+---Fisher:
+All stats{'best params': {'activation': 'logistic', 'alpha': 0.0001, 'hidden_layer_sizes': (15, 2), 'solver': 'lbfgs'}, 'best_p_stats': (0.86, 0.0002593749999999996), 'best_dim_stats': (0.8532499999999998, 0.0001972499999999999), 'best_dim': 1}
+train confusion matrix:[[292   0  99   9]
+ [  0 384  16   0]
+ [ 78   7 313   2]
+ [ 15   0   0 385]]
+test confusion[[ 75   0  16   9]
+ [  0  88  12   0]
+ [ 33   0  66   1]
+ [  0   0   0 100]]
+---PCA:
+All stats{'best params': {'activation': 'logistic', 'alpha': 0.774263682681127, 'hidden_layer_sizes': (5,), 'solver': 'lbfgs'}, 'best_p_stats': (0.819375, 0.00015390624999999953), 'best_dim_stats': (0.8192499999999999, 0.00015756249999999958), 'best_dim': 1}
+train confusion matrix:[[250   0  84  66]
+ [  0 378  22   0]
+ [ 58   6 332   4]
+ [ 54   0   1 345]]
+test confusion[[58  0 15 27]
+ [ 0 91  9  0]
+ [27  0 72  1]
+ [ 5  0  0 95]]
+-----------------------------------------------------------

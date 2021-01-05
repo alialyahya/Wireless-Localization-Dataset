@@ -1,0 +1,156 @@
+no std:
+---none:
+All stats{'best params': {'n_neighbors': 4, 'weights': 'distance'}, 'best_p_stats': (0.9875, 5.859375e-05), 'best_dim_stats': (0.9874999999999998, 5.859375e-05)}
+train confusion matrix:[[400   0   0   0]
+ [  0 400   0   0]
+ [  0   0 400   0]
+ [  0   0   0 400]]
+test confusion[[ 99   0   1   0]
+ [  0  96   4   0]
+ [  0   1  99   0]
+ [  0   0   0 100]]
+---Fisher:
+All stats{'best params': {'n_neighbors': 20, 'weights': 'uniform'}, 'best_p_stats': (0.8487499999999999, 0.00017421875000000063), 'best_dim_stats': (0.8487500000000001, 0.00017421875000000063), 'best_dim': 1}
+train confusion matrix:[[306   0  83  11]
+ [  0 384  16   0]
+ [ 90   7 301   2]
+ [ 15   0   0 385]]
+test confusion[[ 72   0  24   4]
+ [  0  95   5   0]
+ [ 15   1  83   1]
+ [  0   0   0 100]]
+---PCA:
+All stats{'best params': {'n_neighbors': 16, 'weights': 'distance'}, 'best_p_stats': (0.7737499999999999, 0.00023671874999999995), 'best_dim_stats': (0.77375, 0.00023671874999999984), 'best_dim': 1}
+train confusion matrix:[[400   0   0   0]
+ [  0 400   0   0]
+ [  0   0 400   0]
+ [  0   0   0 400]]
+test confusion[[55  0  4 41]
+ [ 0 95  5  0]
+ [ 5  2 93  0]
+ [37  0  0 63]]
+---poly:
+All stats{'best params': {'n_neighbors': 4, 'weights': 'distance'}, 'best_p_stats': (0.9875, 5.859375e-05), 'best_dim_stats': (0.9874999999999998, 5.859375e-05), 'best_dim': 1}
+train confusion matrix:[[400   0   0   0]
+ [  0 400   0   0]
+ [  0   0 400   0]
+ [  0   0   0 400]]
+test confusion[[ 99   0   1   0]
+ [  0  96   4   0]
+ [  0   1  99   0]
+ [  0   0   0 100]]
+---perm:
+All stats{'best params': {'n_neighbors': 17, 'weights': 'distance'}, 'best_p_stats': (0.784375, 0.00020703125000000035), 'best_dim_stats': (0.784375, 0.00020703125000000035), 'best_dim': (1,)}
+train confusion matrix:[[334   0   0  66]
+ [  0 359  41   0]
+ [  6   5 383   6]
+ [226   0   3 171]]
+test confusion[[84  0  0 16]
+ [ 0 83 17  0]
+ [ 0  3 94  3]
+ [59  0  0 41]]
+-----------------------------------------------------------
+std:
+---none:
+All stats{'best params': {'n_neighbors': 4, 'weights': 'distance'}, 'best_p_stats': (0.9862499999999998, 6.875000000000023e-05), 'best_dim_stats': (0.98625, 6.875000000000023e-05)}
+train confusion matrix:[[400   0   0   0]
+ [  0 400   0   0]
+ [  0   0 400   0]
+ [  0   0   0 400]]
+test confusion[[99  0  0  1]
+ [ 0 97  3  0]
+ [ 0  2 98  0]
+ [ 0  0  1 99]]
+---Fisher:
+All stats{'best params': {'n_neighbors': 20, 'weights': 'uniform'}, 'best_p_stats': (0.8487499999999999, 0.00017421875000000063), 'best_dim_stats': (0.8487500000000001, 0.00017421875000000063), 'best_dim': 1}
+train confusion matrix:[[306   0  83  11]
+ [  0 384  16   0]
+ [ 90   7 301   2]
+ [ 15   0   0 385]]
+test confusion[[ 72   0  24   4]
+ [  0  95   5   0]
+ [ 15   1  83   1]
+ [  0   0   0 100]]
+---PCA:
+All stats{'best params': {'n_neighbors': 17, 'weights': 'uniform'}, 'best_p_stats': (0.8162499999999999, 8.750000000000008e-05), 'best_dim_stats': (0.81625, 8.750000000000008e-05), 'best_dim': 1}
+train confusion matrix:[[268   0  62  70]
+ [  0 381  19   0]
+ [ 55   5 338   2]
+ [ 66   0   1 333]]
+test confusion[[69  0 18 13]
+ [ 0 95  5  0]
+ [16  4 79  1]
+ [15  0  0 85]]
+---poly:
+All stats{'best params': {'n_neighbors': 4, 'weights': 'distance'}, 'best_p_stats': (0.9862499999999998, 6.875000000000023e-05), 'best_dim_stats': (0.98625, 6.875000000000023e-05), 'best_dim': 1}
+train confusion matrix:[[400   0   0   0]
+ [  0 400   0   0]
+ [  0   0 400   0]
+ [  0   0   0 400]]
+test confusion[[99  0  0  1]
+ [ 0 97  3  0]
+ [ 0  2 98  0]
+ [ 0  0  1 99]]
+---perm:
+All stats{'best params': {'n_neighbors': 17, 'weights': 'distance'}, 'best_p_stats': (0.784375, 0.00020703125000000035), 'best_dim_stats': (0.784375, 0.00020703125000000035), 'best_dim': (1,)}
+train confusion matrix:[[334   0   0  66]
+ [  0 359  41   0]
+ [  6   5 383   6]
+ [226   0   3 171]]
+test confusion[[84  0  0 16]
+ [ 0 83 17  0]
+ [ 0  3 94  3]
+ [59  0  0 41]]
+-----------------------------------------------------------
+norm:
+---none:
+All stats{'best params': {'n_neighbors': 3, 'weights': 'distance'}, 'best_p_stats': (0.9868750000000001, 7.578124999999992e-05), 'best_dim_stats': (0.9868749999999998, 7.578124999999992e-05)}
+train confusion matrix:[[400   0   0   0]
+ [  0 400   0   0]
+ [  0   0 400   0]
+ [  0   0   0 400]]
+test confusion[[ 99   0   0   1]
+ [  0  91   9   0]
+ [  2   1  97   0]
+ [  0   0   0 100]]
+---Fisher:
+All stats{'best params': {'n_neighbors': 20, 'weights': 'uniform'}, 'best_p_stats': (0.8487499999999999, 0.00017421875000000063), 'best_dim_stats': (0.8487500000000001, 0.00017421875000000063), 'best_dim': 1}
+train confusion matrix:[[306   0  83  11]
+ [  0 384  16   0]
+ [ 90   7 301   2]
+ [ 15   0   0 385]]
+test confusion[[ 76   0  15   9]
+ [  0  88  12   0]
+ [ 38   0  61   1]
+ [  0   0   0 100]]
+---PCA:
+All stats{'best params': {'n_neighbors': 15, 'weights': 'uniform'}, 'best_p_stats': (0.8099999999999999, 8.750000000000008e-05), 'best_dim_stats': (0.81, 8.750000000000008e-05), 'best_dim': 1}
+train confusion matrix:[[258   0  80  62]
+ [  0 378  22   0]
+ [ 56   7 335   2]
+ [ 53   0   2 345]]
+test confusion[[57  0 17 26]
+ [ 0 92  8  0]
+ [20  0 79  1]
+ [ 5  0  0 95]]
+---poly:
+All stats{'best params': {'n_neighbors': 3, 'weights': 'distance'}, 'best_p_stats': (0.9868750000000001, 7.578124999999992e-05), 'best_dim_stats': (0.9868749999999998, 7.578124999999992e-05), 'best_dim': 1}
+train confusion matrix:[[400   0   0   0]
+ [  0 400   0   0]
+ [  0   0 400   0]
+ [  0   0   0 400]]
+test confusion[[ 99   0   0   1]
+ [  0  91   9   0]
+ [  2   1  97   0]
+ [  0   0   0 100]]
+---perm:
+All stats{'best params': {'n_neighbors': 17, 'weights': 'distance'}, 'best_p_stats': (0.784375, 0.00020703125000000035), 'best_dim_stats': (0.784375, 0.00020703125000000035), 'best_dim': (1,)}
+train confusion matrix:[[334   0   0  66]
+ [  0 359  41   0]
+ [  6   5 383   6]
+ [226   0   3 171]]
+test confusion[[78  0  0 22]
+ [ 0 83 17  0]
+ [ 0  3 94  3]
+ [51  0  0 49]]
+-----------------------------------------------------------

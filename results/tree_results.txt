@@ -1,0 +1,96 @@
+no std:
+---none:
+All stats{'best params': {'criterion': 'entropy', 'max_depth': 12}, 'best_p_stats': (0.976875, 7.656249999999983e-05), 'best_dim_stats': (0.9742499999999998, 0.00011037500000000018)}
+train confusion matrix:[[400   0   0   0]
+ [  0 400   0   0]
+ [  0   0 400   0]
+ [  0   0   0 400]]
+test confusion[[ 99   0   1   0]
+ [  0  92   8   0]
+ [  0   2  98   0]
+ [  0   0   0 100]]
+---Fisher:
+All stats{'best params': {'criterion': 'entropy', 'max_depth': 3}, 'best_p_stats': (0.8474999999999999, 0.00016953125000000025), 'best_dim_stats': (0.8475, 0.00016953125000000025), 'best_dim': 1}
+train confusion matrix:[[283   0  99  18]
+ [  0 388  12   0]
+ [ 75   8 313   4]
+ [  5   0   0 395]]
+test confusion[[ 65   0  26   9]
+ [  0  95   5   0]
+ [ 11   3  84   2]
+ [  0   0   0 100]]
+---PCA:
+All stats{'best params': {'criterion': 'entropy', 'max_depth': 4}, 'best_p_stats': (0.7706250000000001, 8.43750000000001e-05), 'best_dim_stats': (0.7706249999999999, 8.43750000000001e-05), 'best_dim': 1}
+train confusion matrix:[[191   0   1 208]
+ [  0 380  20   0]
+ [ 19   1 380   0]
+ [101   0   0 299]]
+test confusion[[45  0  2 53]
+ [ 0 91  9  0]
+ [ 6  0 94  0]
+ [20  0  0 80]]
+-----------------------------------------------------------
+std:
+---none:
+All stats{'best params': {'criterion': 'entropy', 'max_depth': 15}, 'best_p_stats': (0.976875, 6.875000000000023e-05), 'best_dim_stats': (0.975375, 9.71250000000001e-05)}
+train confusion matrix:[[400   0   0   0]
+ [  0 400   0   0]
+ [  0   0 400   0]
+ [  0   0   0 400]]
+test confusion[[ 99   0   1   0]
+ [  0  90  10   0]
+ [  0   3  97   0]
+ [  0   0   0 100]]
+---Fisher:
+All stats{'best params': {'criterion': 'entropy', 'max_depth': 3}, 'best_p_stats': (0.8474999999999999, 0.00016953125000000025), 'best_dim_stats': (0.8475, 0.00016953125000000025), 'best_dim': 1}
+train confusion matrix:[[283   0  99  18]
+ [  0 388  12   0]
+ [ 75   8 313   4]
+ [  5   0   0 395]]
+test confusion[[ 65   0  26   9]
+ [  0  95   5   0]
+ [ 11   3  84   2]
+ [  0   0   0 100]]
+---PCA:
+All stats{'best params': {'criterion': 'gini', 'max_depth': 3}, 'best_p_stats': (0.820625, 0.00013515625000000024), 'best_dim_stats': (0.820625, 0.00013515625000000024), 'best_dim': 1}
+train confusion matrix:[[258   0  85  57]
+ [  0 380  20   0]
+ [ 31   1 367   1]
+ [ 75   0   1 324]]
+test confusion[[64  0 24 12]
+ [ 0 92  8  0]
+ [ 9  4 86  1]
+ [15  0  0 85]]
+-----------------------------------------------------------
+norm:
+---none:
+All stats{'best params': {'criterion': 'gini', 'max_depth': 15}, 'best_p_stats': (0.976875, 5.312500000000012e-05), 'best_dim_stats': (0.9723750000000001, 9.19374999999999e-05)}
+train confusion matrix:[[400   0   0   0]
+ [  0 400   0   0]
+ [  0   0 400   0]
+ [  0   0   0 400]]
+test confusion[[ 99   0   0   1]
+ [  0  90  10   0]
+ [  1   5  94   0]
+ [  0   0   0 100]]
+---Fisher:
+All stats{'best params': {'criterion': 'entropy', 'max_depth': 3}, 'best_p_stats': (0.8474999999999999, 0.00016953125000000025), 'best_dim_stats': (0.8475, 0.00016953125000000025), 'best_dim': 1}
+train confusion matrix:[[283   0  99  18]
+ [  0 388  12   0]
+ [ 75   8 313   4]
+ [  5   0   0 395]]
+test confusion[[ 71   0  17  12]
+ [  0  90  10   0]
+ [ 32   1  65   2]
+ [  0   0   0 100]]
+---PCA:
+All stats{'best params': {'criterion': 'entropy', 'max_depth': 4}, 'best_p_stats': (0.811875, 0.0004898437499999992), 'best_dim_stats': (0.811875, 0.0004898437499999992), 'best_dim': 1}
+train confusion matrix:[[232   0 101  67]
+ [  0 381  19   0]
+ [ 32   4 360   4]
+ [ 51   0   1 348]]
+test confusion[[54  0 18 28]
+ [ 0 90 10  0]
+ [18  3 78  1]
+ [ 5  0  0 95]]
+-----------------------------------------------------------

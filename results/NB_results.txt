@@ -1,0 +1,66 @@
+no std:
+---none:
+Cross Validation Accuracy:0.985
+train confusion matrix:
+[[399   0   1   0]
+ [  0 384  16   0]
+ [  1   1 396   2]
+ [  2   0   1 397]]
+test set acc: 0.9775
+test confusion
+[[ 99   0   1   0]
+ [  0  94   6   0]
+ [  1   1  98   0]
+ [  0   0   0 100]]
+---Fisher:
+Cross Validation Accuracy:((0.9775, 0.00016953124999999965), 2)
+train confusion matrix:
+[[399   0   1   0]
+ [  0 388  12   0]
+ [  4   7 382   7]
+ [  2   0   3 395]]
+test set acc: 0.97
+test confusion
+[[ 99   0   1   0]
+ [  0  94   6   0]
+ [  1   2  95   2]
+ [  0   0   0 100]]
+---PCA:
+Cross Validation Accuracy:((0.9725, 0.0011499999999999991), 3)
+train confusion matrix:
+[[400   0   0   0]
+ [  0 389  11   0]
+ [  3   7 386   4]
+ [  2   0   1 397]]
+test set acc: 0.98
+test confusion
+[[ 99   0   1   0]
+ [  0  96   4   0]
+ [  1   1  97   1]
+ [  0   0   0 100]]
+---poly:
+Cross Validation Accuracy:((0.984375, 2.7343749999999946e-05), 1)
+train confusion matrix:
+[[399   0   1   0]
+ [  0 384  16   0]
+ [  1   1 396   2]
+ [  2   0   1 397]]
+test set acc: 0.9775
+test confusion
+[[ 99   0   1   0]
+ [  0  94   6   0]
+ [  1   1  98   0]
+ [  0   0   0 100]]
+---perm:
+Cross Validation Accuracy:((0.988125, 2.1093750000000126e-05), (1, 2, 3, 4, 5, 7))
+train confusion matrix:
+[[400   0   0   0]
+ [  0 388  12   0]
+ [  1   2 395   2]
+ [  2   0   1 397]]
+test set acc: 0.985
+test confusion
+[[ 99   0   1   0]
+ [  0  97   3   0]
+ [  1   1  98   0]
+ [  0   0   0 100]]
